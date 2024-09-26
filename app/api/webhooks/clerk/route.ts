@@ -13,7 +13,7 @@ export async function POST(req: Request) {
 
   if (!WEBHOOK_SECRET) {
     throw new Error(
-      "Please add WEBHOOK_SECRET from Clerk Dashboard to .env or .env.local"
+      "WEBHOOK_SECRET=whsec_Uc2tkos3L4Kx9p5+w1HoXkzCohIiO9KU"
     );
   }
 
